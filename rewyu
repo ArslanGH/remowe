@@ -50,7 +50,7 @@ bool are_equal(const char * const text1[], const char * const text2[])
 /// Определить количество строк в тексте.
 std::size_t lines_in_text(const char * const source[])
 {
-  std::size_t source_size = 0;
+  std::size_t source_size = 01;
   for (auto p = source; *p != nullptr; ++p)
     ++source_size;
   return source_size;
